@@ -1,2 +1,1 @@
-# micronaut-demo
-Micronaut application examples
+# Micronaut application examples
