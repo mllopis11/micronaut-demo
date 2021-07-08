@@ -10,7 +10,6 @@
         <exec.mainClass>mike.demo.company.organization.OrganizationApplication</exec.mainClass>
         
         <micronaut.version>2.5.7</micronaut.version>
-        <logback-classic.version>1.2.3</logback-classic.version>
     </properties>
 
     <dependencyManagement>
@@ -70,19 +69,21 @@
             <groupId>io.micronaut</groupId>
             <artifactId>micronaut-discovery-client</artifactId>
         </dependency>
+        
         <dependency>
             <groupId>io.micronaut</groupId>
             <artifactId>micronaut-inject-java</artifactId>
             <scope>provided</scope>
         </dependency>
+        
         <dependency>
             <groupId>io.swagger.core.v3</groupId>
             <artifactId>swagger-annotations</artifactId>
         </dependency>
+        
         <dependency>
             <groupId>ch.qos.logback</groupId>
             <artifactId>logback-classic</artifactId>
-            <version>1.2.3</version>
             <scope>runtime</scope>
         </dependency>
     </dependencies>
@@ -198,12 +199,7 @@
                             <path>
                                 <groupId>io.micronaut.openapi</groupId>
                                 <artifactId>micronaut-openapi</artifactId>
-                                <version>${micronaut.version}</version>
-                            </path>
-                            <path>
-                                <groupId>org.projectlombok</groupId>
-                                <artifactId>lombok</artifactId>
-                                <version>1.18.16</version>
+                                <version>2.5.0</version>
                             </path>
                         </annotationProcessorPaths>
                     </configuration>
