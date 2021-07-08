@@ -10,8 +10,6 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>department-service</module>
-        <module>employee-service</module>
         <module>organization-service</module>
     </modules>
 
