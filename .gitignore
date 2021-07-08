@@ -2,10 +2,6 @@
 .project
 .classpath
 .settings/
-.factorypath
-
-# Gradle
-.gradle/
 
 # Idea
 .idea
